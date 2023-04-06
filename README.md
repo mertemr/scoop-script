@@ -1,5 +1,5 @@
 # scoop-script
-Instant setup for my scoop installation
+Instant scoop.sh setup for working at the outside
 
-## Execute before
-`Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force`
+## Execution
+`Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force; .\install.ps1`
