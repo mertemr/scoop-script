@@ -1,5 +1,3 @@
-Set-ExecutionPolicy Bypass -Scope CurrentUser -Force;
-
 Invoke-RestMethod get.scoop.sh | Invoke-Expression;
 scoop install git 7zip;
 
